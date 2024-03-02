@@ -1,4 +1,7 @@
-baseurl: "/trial"
+
+url: https://hilaryokello.github.io
+baseurl: /trial
+
 collections:
   authors:
     output: true
