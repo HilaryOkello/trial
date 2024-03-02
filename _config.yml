@@ -1,3 +1,4 @@
+baseurl: "/trial"
 collections:
   authors:
     output: true
