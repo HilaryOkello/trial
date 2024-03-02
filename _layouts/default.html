@@ -3,12 +3,13 @@
   <head>
     <meta charset="utf-8">
     <title>{{ page.title }}</title>
-    <link rel="stylesheet" href="/assets/css/styles.css">
+    <link rel="stylesheet" href="{{ '/assets/css/styles.css' | relative_url }}">
     {% feed_meta %}
     {% seo %}
   </head>
   <body>
     {% include navigation.html %}
     {{ content }}
+    <h1>{{ page.url }}</h1>
   </body>
 </html>

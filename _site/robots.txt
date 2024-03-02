@@ -1,1 +1,1 @@
-Sitemap: http://localhost:4000/trial/sitemap.xml
+Sitemap: https://hilaryokello.github.io/trial/sitemap.xml
