@@ -1,6 +1,15 @@
 
 url: https://hilaryokello.github.io
-baseurl: /trial
+baseurl: /trial/
+
+
+title: Onyango Okello | Construction Technology Consultancy
+description: >- # this means to ignore newlines until "baseurl:"
+  OnyangoOkello.com is a technology consultancy for Organisations in the Built Environment. Whether you are a Contractor,
+  a Real Estate Firm, or a Consultancy Firm in the built environment, we come up with creative digital, software, data, and AI
+  solutions to help grow your business. 
+
+
 
 collections:
   authors:
@@ -9,19 +18,31 @@ collections:
 defaults:
   - scope:
       path: ""
-      type: "authors"
     values:
-      layout: "author"
+      layout: "default"
   - scope:
-      path: ""
-      type: "posts"
+      path: "tools.html"
     values:
-      layout: "post"
+      layout: "default"
   - scope:
-      path: ""
+      path: "projects.html"
     values:
       layout: "default"
 plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-seo-tag
+
+# contact form action
+contact_form_action: "https://formspree.io/f/mgegygyv"
+
+#   # Build settings
+# markdown: kramdown
+# permalink: pretty
+# plugins:
+#   - jekyll-paginate
+#   - jekyll-sitemap
+#   - jekyll/tagging
+
+# paginate: 6
+# paginate_path: "/page/:num"

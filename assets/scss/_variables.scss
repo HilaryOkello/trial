@@ -1,0 +1,33 @@
+// Color Variables
+$primary-color: #3240F9; // Main primary color
+$secondary-color: #8DB8E2; // Secondary color
+$text-color: #666666; // Default text color
+$text-color-dark: #06080F; // Darker text color
+$body-color: #FBFCFD; // Background color for body
+$border-color: #ACB9C4; // Border color
+$black: #06080F; // Black color
+$white: #FBFCFD; // White color
+$red: #fb6563; // Red color
+$darker-blue: #26233D;
+
+// Font Variables
+$primary-font: 'Muli', sans-serif; // Primary font
+$icon-font: 'themify'; // Icon font
+$displayRoman: 'Neue Haas Display Roman', Arial, Helvetica, sans-serif;
+$displayMedium: 'Neue Haas Display Medium', Arial, Helvetica, sans-serif;
+
+@font-face {
+    font-family: 'Neue Haas Display Roman';
+    src: url('fonts/neue-haas-grotesk-display-pro-cufonfonts/NeueHaasDisplayRoman.ttf') format('truetype'),
+         url('fonts/neue-haas-grotesk-display-pro-cufonfonts/NeueHaasDisplayRoman.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Neue Haas Display Medium';
+    src: url('fonts/neue-haas-grotesk-display-pro-cufonfonts/NeueHaasDisplayMediu.ttf') format('truetype'),
+         url('fonts/neue-haas-grotesk-display-pro-cufonfonts/NeueHaasDisplayMediu.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+  }

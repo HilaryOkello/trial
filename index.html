@@ -2,4 +2,26 @@
 title: Home
 ---
 
-<h1>{{ "Hello World!" | downcase }}</h1>
+<div class="cta-container container">
+    <section class="row call-to-action" id="top">
+        <div class="col-md-6 cta-text order-md-1">
+            <div class="cta-text-div">
+                <h2 class="cta-text-real">Creative <strong id="word"></strong><strong class="blink">|</strong><br>Solutions for <strong>Organisations</strong><br>and <strong>Professionals</strong><br>in the Built Environment.</h2>
+                <a href="mailto:hilaryokello091@gmail.com" class="outline-button">Get In Touch</a>
+            </div>
+        </div>
+        <div class="col-md-6 cta-image order-md-2">
+            <div class="cta-image-div" style="background-image: url('{{ "/assets/images/city.svg" | relative_url }}'); background-size: cover;"></div>  
+        </div>
+    </section>
+</div>
+{% include services_2.html %}
+{% include about.html %}
+{% include contact.html %}
+
+
+
+
+
+
+

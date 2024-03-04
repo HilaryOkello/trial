@@ -1,0 +1,45 @@
+
+.icon-md {
+	font-size: 30px;
+}
+
+.icon-color {
+	color: $red;
+}
+
+
+.services {
+	padding-top: 125px;
+	@include mobile {
+		padding-top: 60px;
+	}
+}
+.service-2 {
+	border-top: 2px dotted $secondary-color !important;
+	border-bottom: 2px dotted $secondary-color;
+	@include mobile {
+		border-bottom: 0;
+	}
+
+	.service-item {
+		padding: 40px 0px;
+		@include mobile {
+			padding: 20px 0px;
+		}
+	}
+
+}
+.b-left {
+	border-left: 2px dotted $secondary-color !important;
+	@include mobile {
+		border-left: 0;
+		border-bottom: 2px dotted $secondary-color !important;
+	}
+}
+.b-right {
+	border-right: 2px dotted $secondary-color !important;
+	@include mobile {
+		border-right: 0;
+		border-bottom: 2px dotted $secondary-color !important;
+	}
+}

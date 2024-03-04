@@ -1,0 +1,114 @@
+########################### Navigation ###################################
+menu:
+  # main menu
+  main:
+    - { name: Projects, url: "projects.html" }
+    - { name: Services, url: "#services" }
+    - { name: About, url: "#about" }
+    - { name: Tools, url: "tools.html" }
+    - { name: Get in Touch, url: "#contact" }
+
+
+  # Footer menu
+  footer:
+    - { name: Projects, url: "projects.html" }
+    - { name: Services, url: "#services" }
+    - { name: About, url: "#about" }
+    - { name: Tools, url: "tools.html" }
+    - { name: Get in Touch, url: "#contact" } 
+
+# copyright
+copyright: "Copyright &copy; 2022 Designed and Developed by [Onyango Okello](https://onyangookello.com)"
+
+  ##### Dropdown menu ######
+
+  # - name: dropdown
+  #   submenu:
+  #   - name : "d1"
+  #     url : "#"
+  #   - name : "d2"
+  #     url : "#"
+
+  ##########################
+# logo
+logo: "/assets/images/logo.svg"
+
+# google analitycs ID
+google_analitycs_id: "" # your id
+
+# preloader
+preloader:
+  enable: true
+  preloader: "" # use png, jpg, svg or gif format
+
+######################### Hero Area ##############################
+hero_area:
+  background_image : "/assets/images/streets.svg"
+  image : "/assets/images/city.svg"
+  button:
+    enable : true
+    label : "Get in Touch"
+    link : "#"
+
+########################### Service ##############################
+services:
+- title : "Digital Branding"
+  icon : "ti-announcement"
+  content : "Navigate the digital landscape with confidence. We tailor solutions to elevate your brand's online presence. Let's build your digital identity together."
+
+- title : "Web Design & Development"
+  icon : "ti-mobile"
+  content : "Engage your audience effectively with captivating online experiences and seamless functionality. Contact us today for your website."
+
+- title : "Data, Automation & AI"
+  icon : "ti-dashboard"
+  content : "Harness the power of data analytics for informed decision-making and streamline operations through AI automation. Reach out to embark on the future."
+
+- title : "Technology Consulting"
+  icon : "ti-agenda"
+  content : "How can you harness technology to transform your processes? What products out there fits your business? Or maybe you have a tech idea you want to implement. Let's chat."
+
+################## About ###########################
+about:
+  enable : true
+  subtitle : "About"
+  title : "Design & <br>Development"
+  image : "/assets/images/about/about.png"
+  content : "Hilary Onyango Okello is the brains behind
+OnyangoOkello.com. And he has been designing and building software professionaly since 2022.
+
+
+
+Before founding his eponymous studio, Hilary pursued
+a bachelor’s degree in construction management
+at JKUAT and trained as a certified web developer
+at Simplon.co.
+
+
+
+
+When he is not at work, Hilary enjoys gardening and
+cooking. He lives in Kisumu, Kenya."
+  button:
+    enable : true
+    label : "Get in Touch"
+    link : "#contact"
+
+
+############################## Social Site ##########################
+social:
+  - name: "facebook"
+    icon: "ti-facebook" # themify icon pack https://themify.me/themify-icons
+    link: "#"
+
+  - name: "twitter"
+    icon: "ti-twitter-alt" # themify icon pack https://themify.me/themify-icons
+    link: "#"
+
+  - name: "github"
+    icon: "ti-github" # themify icon pack https://themify.me/themify-icons
+    link: "#"
+
+  - name: "linkedin"
+    icon: "ti-linkedin" # themify icon pack https://themify.me/themify-icons
+    link: "#"

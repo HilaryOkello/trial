@@ -1,0 +1,56 @@
+.navigation {
+  transition: .3s ease;
+  &.fixed-top{
+    @include desktop {
+      position: sticky !important;
+    }
+  }
+  @include desktop {
+    background: $white;
+  }
+}
+
+.nav-bg {
+  background-color: $white;
+  box-shadow: 0px 0px 5px rgb(201, 200, 200);
+}
+
+.nav-item{
+  margin: 0;
+
+  .nav-link{
+    text-transform: capitalize;
+    margin-left: 25px;
+  }
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: $darker-blue;
+  &:hover{
+    color: $primary-color;
+  }
+}
+
+.navbar-expand-lg .navbar-nav {
+  padding: 20px;
+  @include mobile {
+    padding: 10px;
+  }
+}
+
+.nav-link-items {
+  padding: 5px 20px;
+  font-family: $displayRoman;
+  font-size: 1.25rem;
+  border-bottom: 2px solid $red;
+  @include mobile{
+    padding: 2.5px 10px;
+    font-size: 1rem;
+    border-bottom: 0;
+  }
+}
+.navbar-toggler {
+  color: $primary-color !important;
+}
+
+
