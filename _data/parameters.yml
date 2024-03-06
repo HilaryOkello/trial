@@ -18,7 +18,7 @@ menu:
     - { name: Get in Touch, url: "#contact" } 
 
 # copyright
-copyright: "Copyright &copy; 2022 Designed and Developed by [Onyango Okello](https://onyangookello.com)"
+copyright: "Copyright &copy; 2024 Designed and Developed by [Onyango Okello](https://onyangookello.com)"
 
   ##### Dropdown menu ######
 
@@ -54,20 +54,27 @@ hero_area:
 services:
 - title : "Digital Branding"
   icon : "ti-announcement"
-  content : "Navigate the digital landscape with confidence. We tailor solutions to elevate your brand's online presence. Let's build your digital identity together."
+  content : "We tailor solutions to elevate your brand's online presence so you can navigate the digital landscape with confidence."
+  link : "branding.html" 
+  label: "See Pricing"
 
 - title : "Web Design & Development"
   icon : "ti-mobile"
   content : "Engage your audience effectively with captivating online experiences and seamless functionality. Contact us today for your website."
+  link : "webp.html"
+  label: "See Pricing"
 
 - title : "Data, Automation & AI"
   icon : "ti-dashboard"
-  content : "Harness the power of data analytics for informed decision-making and streamline operations through AI automation. Reach out to embark on the future."
+  content : "We help harness the power of data analytics for informed decision-making. Streamline operations through automation and AI. Reach out to embark on the future."
+  link: "datap.html"
+  label: "See Pricing"
 
 - title : "Technology Consulting"
   icon : "ti-agenda"
-  content : "How can you harness technology to transform your processes? What products out there fits your business? Or maybe you have a tech idea you want to implement. Let's chat."
-
+  content : "IT is a wide industry and it can be overwhelming to get started. We'll guide you on the best IT solutions to meet your needs."
+  link: "consultingp'html"
+  label: "See Pricing"
 ################## About ###########################
 about:
   enable : true

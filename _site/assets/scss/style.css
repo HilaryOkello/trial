@@ -332,9 +332,6 @@ textarea.form-control {
   margin-left: 25px;
 }
 
-.navbar-light .navbar-nav .nav-link {
-  color: #26233D;
-}
 .navbar-light .navbar-nav .nav-link:hover {
   color: #3240F9;
 }
@@ -349,6 +346,7 @@ textarea.form-control {
 }
 
 .nav-link-items {
+  color: #26233D !important;
   padding: 5px 20px;
   font-family: "Neue Haas Display Roman", Arial, Helvetica, sans-serif;
   font-size: 1.25rem;
@@ -384,6 +382,7 @@ textarea.form-control {
 }
 
 .service-2 {
+  background: #FBFCFD;
   border-top: 2px dotted #8DB8E2 !important;
   border-bottom: 2px dotted #8DB8E2;
 }
@@ -418,6 +417,12 @@ textarea.form-control {
   .b-right {
     border-right: 0;
     border-bottom: 2px dotted #8DB8E2 !important;
+  }
+}
+
+@media (max-width: 575px) {
+  .mobile-button {
+    width: 50%;
   }
 }
 
@@ -806,14 +811,14 @@ textarea.form-control {
   color: #26233D;
   background-color: transparent;
   text-decoration: none;
-  border: 0.2rem solid #3240F9;
+  border: 2px solid #3240F9;
+  transition: background-color 0.3s ease;
 }
 @media (max-width: 575px) {
   .outline-button {
     font-family: "Neue Haas Display Roman", Arial, Helvetica, sans-serif;
     padding: 5px 20px !important;
     font-size: 1rem;
-    border: 0.15rem solid #3240F9;
     margin-top: 20px;
     margin-bottom: 20px;
   }
@@ -821,8 +826,35 @@ textarea.form-control {
 
 .outline-button:hover {
   text-decoration: none;
+  padding: 7px 22px;
+  color: #26233D;
+  background-color: #8DB8E2 !important;
+  border: none;
+}
+
+.main-button {
+  font-family: "Neue Haas Display Roman", Arial, Helvetica, sans-serif;
+  font-size: 1.25rem;
+  display: inline-block;
+  padding: 7px 22px;
+  color: #FBFCFD !important;
+  background-color: #3240F9;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+@media (max-width: 575px) {
+  .main-button {
+    font-family: "Neue Haas Display Roman", Arial, Helvetica, sans-serif;
+    padding: 5px 20px !important;
+    font-size: 1rem;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+}
+
+.main-button:hover {
+  text-decoration: none;
   background-color: #26233D !important;
-  border: 2px solid #26233D !important;
   color: #FBFCFD !important;
 }
 

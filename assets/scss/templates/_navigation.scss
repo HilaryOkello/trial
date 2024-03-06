@@ -25,7 +25,6 @@
 }
 
 .navbar-light .navbar-nav .nav-link {
-  color: $darker-blue;
   &:hover{
     color: $primary-color;
   }
@@ -39,6 +38,7 @@
 }
 
 .nav-link-items {
+  color: $darker-blue !important;
   padding: 5px 20px;
   font-family: $displayRoman;
   font-size: 1.25rem;

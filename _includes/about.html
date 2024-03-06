@@ -14,7 +14,8 @@
 				<h3 class="mb-4 mt-3">{{ about.title }}</h3>
 				{{ about.content | markdownify }}
 				{% if about.button.enable %}
-				<a href="{{ about.button.link | relative_url }}" class="outline-button">{{about.button.label}}</a>
+				<a href="{{ about.button.link | relative_url }}" class="main-button mr-3">{{about.button.label}}</a>
+				<a href="#services" class="outline-button">Our Services</a>
 				{% endif %}
 			</div>
 		</div>
