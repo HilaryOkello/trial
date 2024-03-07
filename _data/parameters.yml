@@ -7,7 +7,16 @@ menu:
     - { name: About, url: "#about" }
     - { name: Tools, url: "tools.html" }
     - { name: Get in Touch, url: "#contact" }
+  ##### Dropdown menu ######
 
+  # - name: dropdown
+  #   submenu:
+  #   - name : "d1"
+  #     url : "#"
+  #   - name : "d2"
+  #     url : "#"
+
+  ##########################
 
   # Footer menu
   footer:
@@ -20,16 +29,6 @@ menu:
 # copyright
 copyright: "Copyright &copy; 2024 Designed and Developed by [Onyango Okello](https://onyangookello.com)"
 
-  ##### Dropdown menu ######
-
-  # - name: dropdown
-  #   submenu:
-  #   - name : "d1"
-  #     url : "#"
-  #   - name : "d2"
-  #     url : "#"
-
-  ##########################
 # logo
 logo: "/assets/images/logo.svg"
 
@@ -61,20 +60,71 @@ services:
 - title : "Web Design & Development"
   icon : "ti-mobile"
   content : "Engage your audience effectively with captivating online experiences and seamless functionality. Contact us today for your website."
-  link : "webp.html"
+  link : "website.html"
   label: "See Pricing"
 
 - title : "Data, Automation & AI"
   icon : "ti-dashboard"
   content : "We help harness the power of data analytics for informed decision-making. Streamline operations through automation and AI. Reach out to embark on the future."
-  link: "datap.html"
+  link: "data-AI.html"
   label: "See Pricing"
 
 - title : "Technology Consulting"
   icon : "ti-agenda"
   content : "IT is a wide industry and it can be overwhelming to get started. We'll guide you on the best IT solutions to meet your needs."
-  link: "consultingp'html"
-  label: "See Pricing"
+  link: "consulting'html"
+  label: "Book Appointment"
+
+########################### Website Pricing ##############################
+website:
+  - title : "Standard"
+    subtitle: "Best for small businesses and professionals just starting out on their digital journey"
+    price : "KSH. 10,000"
+    link : "#"
+    label : "Express Interest"
+    features :
+      - "Turnaround: 5-7 business days"
+      - "Custom Website Domain e.g yourbusiness.com"
+      - "One Year Website Hosting"
+      - "Secure your Site with SSL Certificate"
+      - "Three Months Free Website Maintenance"
+      - "Up To 5 Static, Visually-Appealing Pages"
+      - "Responsive Design i.e mobile-friendly"
+      - "Basic Search Engine Optimization (SEO)"
+  - title : "Professional"
+    subtitle: "For established businesses who want to engage their audience more in the digital space"
+    price : "KSH. 20,000"
+    link : "#"
+    label : "Express Interest"
+    features :
+      - "Turnaround: 10-14 Business Days"
+      - "Same benefits as the Standard Package Plus More"
+      - "Up To 10 Dynamic Visually-Appealing Pages"
+      - "Database Integration"
+      - "Google Analytics Integration"
+      - "Administrative Dashboard"
+      - "Custom logo design"
+      - "Custom Emails e.g sales@your-business.com"
+      - "Intermediate Search Engine Optimisation (SEO)"
+  - title : "Pro Ultra"
+    subtitle : "Automate workflows on the web e.g payments, hiring, bookings, etc." 
+    price : "From KSH. 35,000"
+    link : "#"
+    label : "Discovery Call"
+    features :
+      - "Turnaround: From 21 Business Days"
+      - "Same Benefits as the Standard and Professional packages Plus More"
+      - "Live Chat integration"
+      - "MPESA, Visa, and Mastercard Payment Integration"
+      - "Advanced Google Analytics & SEO"
+      - "Automated Custom Workflows"
+      - "Shop integration"
+      - "CRM integration"
+      - "Six Months Free Maintenance"
+
+
+
+
 ################## About ###########################
 about:
   enable : true

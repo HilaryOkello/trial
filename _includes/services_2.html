@@ -11,7 +11,7 @@
                         <p class="flex-grow-1">{{ service.content }}</p>
                     </div>
                     <div class="text-center"> <!-- Add this div with text-center class -->
-                        <a href="#" class="main-button text-center mb-4 mx-4 mobile-button">{{ service.label }}</a>
+                        <a href="{{ service.link | relative_url}}" class="main-button text-center mb-4 mx-4 mobile-button">{{ service.label }}</a>
                     </div>
                 </div>
                 {% endfor %}
