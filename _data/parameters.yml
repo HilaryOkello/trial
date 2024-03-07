@@ -72,7 +72,7 @@ services:
 - title : "Technology Consulting"
   icon : "ti-agenda"
   content : "IT is a wide industry and it can be overwhelming to get started. We'll guide you on the best IT solutions to meet your needs."
-  link: "consulting'html"
+  link: "consulting.html"
   label: "Book Appointment"
 
 ########################### Website Pricing ##############################
