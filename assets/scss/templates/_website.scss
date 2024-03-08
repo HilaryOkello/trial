@@ -1,5 +1,8 @@
   
-  .pricing-cards ul {
+  .pricing-card {
+    border-radius: 1.5rem;
+    box-shadow: 0 0 5px $secondary-color;
+  }.pricing-cards ul {
     padding: 0;
     display: flex;
     flex-direction: column;
@@ -9,22 +12,21 @@
   .pricing-cards ul li {
     list-style-type: none;
     display: flex;
-    justify-content: center;
     width: 100%;
-    padding: 0.5rem 0;
+    padding: 0.25rem 0;
   }
-  .pricing-cards ul li.subtitle {
+  .pricing-cards p.subtitle {
     font-size: 1rem;
     color: $text-color;
     padding-bottom: 2rem;
     margin-bottom: 0;
     padding-bottom: 0;
   }
-  .pricing-cards ul li.price {
+  .pricing-cards p.price {
     font-family: $displayMedium;
     font-size: 1.5rem;
-    color: $black;
-    padding-bottom: 2rem;
+    color: $red;
+    padding-bottom: 1rem;
   }
   
   .bottom-bar {
@@ -36,8 +38,7 @@
     color: #6BA669;
     font-family: $displayMedium;
     font-size: 1.5rem;
-    margin-bottom: 0;
-    padding-bottom: 0;
+    padding-top: 1rem;
   }
   
   @media (max-width: 280px) {
@@ -54,4 +55,11 @@
       margin: 20px;
     }
   }
-  
+  .list-icon {
+    font-weight: 900;
+    color: #6BA669;
+  }
+  .intro {
+    color: $text-color;
+    font-size: 1.25rem;
+  }

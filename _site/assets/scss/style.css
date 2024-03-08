@@ -512,13 +512,13 @@ textarea.form-control {
 }
 
 .soon {
-  background: url("../images/bg/banner-2.png") no-repeat;
   display: flex;
   justify-content: center;
   align-items: center;
   height: 70vh;
   text-align: center;
   font-family: "Muli", sans-serif;
+  color: #666666 !important;
 }
 
 .home-contact {
@@ -574,6 +574,11 @@ textarea.form-control {
   height: 450px;
 }
 
+.pricing-card {
+  border-radius: 1.5rem;
+  box-shadow: 0 0 5px #8DB8E2;
+}
+
 .pricing-cards ul {
   padding: 0;
   display: flex;
@@ -585,12 +590,11 @@ textarea.form-control {
 .pricing-cards ul li {
   list-style-type: none;
   display: flex;
-  justify-content: center;
   width: 100%;
-  padding: 0.5rem 0;
+  padding: 0.25rem 0;
 }
 
-.pricing-cards ul li.subtitle {
+.pricing-cards p.subtitle {
   font-size: 1rem;
   color: #666666;
   padding-bottom: 2rem;
@@ -598,11 +602,11 @@ textarea.form-control {
   padding-bottom: 0;
 }
 
-.pricing-cards ul li.price {
+.pricing-cards p.price {
   font-family: "Neue Haas Display Medium", Arial, Helvetica, sans-serif;
   font-size: 1.5rem;
-  color: #06080F;
-  padding-bottom: 2rem;
+  color: #fb6563;
+  padding-bottom: 1rem;
 }
 
 .bottom-bar {
@@ -614,8 +618,7 @@ textarea.form-control {
   color: #6BA669;
   font-family: "Neue Haas Display Medium", Arial, Helvetica, sans-serif;
   font-size: 1.5rem;
-  margin-bottom: 0;
-  padding-bottom: 0;
+  padding-top: 1rem;
 }
 
 @media (max-width: 280px) {
@@ -631,6 +634,16 @@ textarea.form-control {
     margin: 20px;
   }
 }
+.list-icon {
+  font-weight: 900;
+  color: #6BA669;
+}
+
+.intro {
+  color: #666666;
+  font-size: 1.25rem;
+}
+
 /* body */
 /* body {
   background-image: url(../images/backgrounds/pattern.png);
@@ -904,8 +917,8 @@ textarea.form-control {
     font-family: "Neue Haas Display Roman", Arial, Helvetica, sans-serif;
     padding: 5px 20px !important;
     font-size: 1rem;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
   }
 }
 

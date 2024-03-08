@@ -66,21 +66,29 @@ services:
 - title : "Data, Automation & AI"
   icon : "ti-dashboard"
   content : "We help harness the power of data analytics for informed decision-making. Streamline operations through automation and AI. Reach out to embark on the future."
-  link: "data-AI.html"
-  label: "See Pricing"
+  link: "#contact"
+  label: "Make an Inquiry"
 
 - title : "Technology Consulting"
   icon : "ti-agenda"
   content : "IT is a wide industry and it can be overwhelming to get started. We'll guide you on the best IT solutions to meet your needs."
-  link: "consulting.html"
-  label: "Book Appointment"
+  link: "#contact"
+  label: "Make an Inquiry"
 
 ########################### Website Pricing ##############################
+
+#### website-pricing-intro ####
+website-intro:
+  - title: "Our Website Design Packages"
+    intro-message: "Our website packages have been tailored to offer value for money depending on what you want to achieve. Select from one of our packages below:"
+    warning: "Note: Services tangential to website design such as copy writing and content generation will attract extra fees, which will be communicated promptly."
+
+#### website-pricing-packages ####
 website:
   - title : "Standard"
     subtitle: "Best for small businesses and professionals just starting out on their digital journey"
     price : "KSH. 10,000"
-    link : "#"
+    link : "https://docs.google.com/forms/d/e/1FAIpQLSfbI4gmqs3-hA3axMu7_m4b_9nfi7NLzNaHQglYdyF5xgUgzA/viewform?usp=pp_url&entry.321104941=Standard&entry.826318386=Email+Only"
     label : "Express Interest"
     features :
       - "Turnaround: 5-7 business days"
@@ -94,7 +102,7 @@ website:
   - title : "Professional"
     subtitle: "For established businesses who want to engage their audience more in the digital space"
     price : "KSH. 20,000"
-    link : "#"
+    link : "https://docs.google.com/forms/d/e/1FAIpQLSfbI4gmqs3-hA3axMu7_m4b_9nfi7NLzNaHQglYdyF5xgUgzA/viewform?usp=pp_url&entry.321104941=Professional&entry.826318386=Email+Only"
     label : "Express Interest"
     features :
       - "Turnaround: 10-14 Business Days"
@@ -109,8 +117,8 @@ website:
   - title : "Pro Ultra"
     subtitle : "Automate workflows on the web e.g payments, hiring, bookings, etc." 
     price : "From KSH. 35,000"
-    link : "#"
-    label : "Discovery Call"
+    link : "https://docs.google.com/forms/d/e/1FAIpQLSfbI4gmqs3-hA3axMu7_m4b_9nfi7NLzNaHQglYdyF5xgUgzA/viewform?usp=pp_url&entry.321104941=Pro+Ultra&entry.826318386=Email+Only"
+    label : "Express Interest"
     features :
       - "Turnaround: From 21 Business Days"
       - "Same Benefits as the Standard and Professional packages Plus More"
@@ -121,6 +129,55 @@ website:
       - "Shop integration"
       - "CRM integration"
       - "Six Months Free Maintenance"
+
+
+########################### Branding Pricing ##############################
+
+#### branding-pricing-intro ####
+branding-intro:
+  - title: "Our Digital Branding Package"
+    intro-message: "Our digital branding packages have been tailored to offer value for money as you navigate the digital landscape. Select from one of our packages below:"
+    warning: "Note: Services tangential to branding design, such as copy writing, content generation, photography, etc., will attract extra fees, which will be communicated promptly."
+
+#### branding-pricing-packages ####
+branding:
+  - title : "Starter"
+    subtitle: "Logo + Colours + Business Cards"
+    price : "KSH. 10,000"
+    link : "https://forms.gle/gwNcAqXMhpLdrTZm8"
+    label : "Express Interest"
+    features :
+      - "Turnaround: 3-5 Business Days"
+      - "Two Custom Logos to Choose From"
+      - "Professional Business Card Design"
+      - "Help Selecting Brand Colors"
+      - "Logo & Brand Colour Mockups"
+      - "Professional Letter Head"
+      - "Professional Eamil Header"
+  - title : "Silver"
+    subtitle: "Starter Package + Social Media"
+    price : "KSH. 15,000"
+    link : "https://forms.gle/gwNcAqXMhpLdrTZm8"
+    label : "Express Interest"
+    features :
+      - "Turnaround: 7-10 Business Days"
+      - "Everything in the Starter Package Plus:"
+      - "Social Media Banners (Facebook, Twitter, Instagram, WhatsApp, LinkedIn)"
+      - "Three Custom Logos to Choose from"
+      - "Social Media Post Template with your Logo + Colours"
+      - "Three Posters Outlining Your Services"
+  - title : "Enterprise"
+    subtitle: "Custom & Advanced Digital Branding"
+    price : "From KSH. 25,000"
+    link : "https://forms.gle/gwNcAqXMhpLdrTZm8"
+    label : "Express Interest"
+    features :
+      - "Turnaround: From 14 Business Days"
+      - "Set Up Social Media (Facebook, Twitter, Instagram, WhatsApp, LinkedIn)"
+      - "Set Up WhatsApp Business"
+      - "Digital Ad Campaigns"
+      - "Design Merchandise, such as T-shirts, notebooks, etc"
+      - "Deploying CRMs"
 
 
 

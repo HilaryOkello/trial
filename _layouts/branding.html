@@ -2,9 +2,8 @@
 layout: default
 ---
 
-
 <div class="container my-3">
-    {% for intro in site.data.parameters.website-intro %}
+    {% for intro in site.data.parameters.branding-intro %}
     <div class="">
         <h3 class="pack">{{ intro.title }}</h3>
         <p class="intro">{{ intro.intro-message }}</p>
@@ -12,24 +11,24 @@ layout: default
     </div>
     {% endfor %}
     <div class="row justify-content-center">
-        {% for website in site.data.parameters.website %}
+        {% for branding in site.data.parameters.branding %}
         <div class="card pricing-card mx-3 my-2 col-lg-3 col-md-6 d-flex flex-column align-items-center">
             <div class="mb-4 mb-lg-0 px-2 flex-grow-1 pricing-cards">
                 <div class="text-center">
-                    <h3 class="pack">{{ website.title }}</h3>
-                    <p class="subtitle">{{ website.subtitle }}</p>
-                    <p id="basic" class="price">{{ website.price }}</p>
+                    <h3 class="pack">{{ branding.title }}</h3>
+                    <p class="subtitle">{{ branding.subtitle }}</p>
+                    <p id="basic" class="price">{{ branding.price }}</p>
                 </div>
                 <ul class="text-left"> <!-- Adjusted class for left alignment -->
-                    {% if website.features %}
-                    {% for feature in website.features %}
+                    {% if branding.features %}
+                    {% for feature in branding.features %}
                     <li class="bottom-bar ml-0"><i class="ti-check list-icon"></i> &nbsp;{{ feature }}</li>
                     {% endfor %}
                     {% endif %}
                 </ul>  
             </div>
             <div> <!-- Keep the label button centered -->
-                <a href="{{ website.link | relative_url}}" target=”_blank” class="main-button text-center mb-4 mx-4">{{ website.label }}</a>
+                <a href="{{ branding.link | relative_url}}" class="main-button text-center mb-4 mx-4">{{ branding.label }}</a>
             </div>
         </div>
         {% endfor %}
