@@ -87,7 +87,7 @@ website-intro:
 website:
   - title : "Standard"
     subtitle: "Best for small businesses and professionals just starting out on their digital journey"
-    price : "KSH. 10,000"
+    price : "KSH. 12,000"
     link : "https://docs.google.com/forms/d/e/1FAIpQLSfbI4gmqs3-hA3axMu7_m4b_9nfi7NLzNaHQglYdyF5xgUgzA/viewform?usp=pp_url&entry.321104941=Standard&entry.826318386=Email+Only"
     label : "Express Interest"
     features :
@@ -101,7 +101,7 @@ website:
       - "Basic Search Engine Optimization (SEO)"
   - title : "Professional"
     subtitle: "For established businesses who want to engage their audience more in the digital space"
-    price : "KSH. 20,000"
+    price : "From KSH. 20,000"
     link : "https://docs.google.com/forms/d/e/1FAIpQLSfbI4gmqs3-hA3axMu7_m4b_9nfi7NLzNaHQglYdyF5xgUgzA/viewform?usp=pp_url&entry.321104941=Professional&entry.826318386=Email+Only"
     label : "Express Interest"
     features :
