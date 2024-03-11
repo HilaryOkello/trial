@@ -18,7 +18,10 @@
 
 .bbsForm-header {
     font-family: $displayMedium;
-    color: $red;
+    color: $green;
+    @include mobile {
+        font-size: 1.25rem;
+    }
 }
 .beamSchedule {
     @include mobile {

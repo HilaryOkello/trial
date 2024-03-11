@@ -298,6 +298,7 @@ border: none;
   text-decoration: none;
   transition: background-color 0.3s ease;
   border-radius: 0.25rem;
+  border: none;
   @include mobile {
     font-family: $displayRoman;
     padding: 9px 24px !important;

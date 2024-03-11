@@ -381,6 +381,7 @@ textarea.form-control {
   color: #26233D;
   line-height: 1.5rem;
   letter-spacing: 0.05rem;
+  text-decoration: none;
 }
 @media (max-width: 575px) {
   .logo-name {
@@ -388,6 +389,11 @@ textarea.form-control {
     line-height: 1rem;
     letter-spacing: 0.03rem;
   }
+}
+
+.logo-name:hover {
+  text-decoration: none;
+  color: #26233D;
 }
 
 .logo-name-sub {
@@ -726,7 +732,12 @@ textarea.form-control {
 
 .bbsForm-header {
   font-family: "Neue Haas Display Medium", Arial, Helvetica, sans-serif;
-  color: #fb6563;
+  color: #6BA669;
+}
+@media (max-width: 575px) {
+  .bbsForm-header {
+    font-size: 1.25rem;
+  }
 }
 
 @media (max-width: 575px) {
@@ -1005,6 +1016,7 @@ textarea.form-control {
   text-decoration: none;
   transition: background-color 0.3s ease;
   border-radius: 0.25rem;
+  border: none;
 }
 @media (max-width: 575px) {
   .main-button {

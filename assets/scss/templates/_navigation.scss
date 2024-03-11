@@ -69,11 +69,16 @@
   color: $darker-blue;
   line-height: 1.5rem;
   letter-spacing: 0.05rem;
+  text-decoration: none;
   @include mobile {
     font-size: 1rem;
     line-height: 1rem;
     letter-spacing: 0.03rem;
   }
+}
+.logo-name:hover{
+  text-decoration: none;
+  color: $darker-blue;
 }
 .logo-name-sub {
   font-family: $primary-font;
