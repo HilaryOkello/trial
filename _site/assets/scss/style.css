@@ -644,6 +644,35 @@ textarea.form-control {
   font-size: 1.25rem;
 }
 
+#bbsForm {
+  padding: 20px;
+  background-color: #FBFCFD;
+  border-radius: 1rem;
+  box-shadow: 0 0 5px #8DB8E2;
+}
+
+#bbsForm input {
+  height: 2rem;
+  width: 50%;
+}
+
+#bbsForm select {
+  height: 2rem;
+  width: 50%;
+}
+
+.bbsForm-header {
+  font-family: "Neue Haas Display Medium", Arial, Helvetica, sans-serif;
+  color: #fb6563;
+}
+
+@media (max-width: 575px) {
+  .beamSchedule {
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
+
 /* body */
 /* body {
   background-image: url(../images/backgrounds/pattern.png);
@@ -881,7 +910,7 @@ textarea.form-control {
   color: #26233D;
   background-color: transparent;
   text-decoration: none;
-  border: 2px solid #3240F9;
+  border: 2px solid #fb6563;
   transition: background-color 0.3s ease;
 }
 @media (max-width: 575px) {
@@ -896,7 +925,7 @@ textarea.form-control {
 
 .outline-button:hover {
   text-decoration: none;
-  padding: 7px 22px;
+  padding: 5px 20px;
   color: #26233D;
   background-color: #8DB8E2 !important;
   border: none;
@@ -906,7 +935,7 @@ textarea.form-control {
   font-family: "Neue Haas Display Roman", Arial, Helvetica, sans-serif;
   font-size: 1.25rem;
   display: inline-block;
-  padding: 7px 22px;
+  padding: 9px 24px;
   color: #FBFCFD !important;
   background-color: #3240F9;
   text-decoration: none;
@@ -915,7 +944,7 @@ textarea.form-control {
 @media (max-width: 575px) {
   .main-button {
     font-family: "Neue Haas Display Roman", Arial, Helvetica, sans-serif;
-    padding: 5px 20px !important;
+    padding: 9px 24px !important;
     font-size: 1rem;
     margin-top: 10px;
     margin-bottom: 10px;

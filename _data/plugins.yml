@@ -9,3 +9,7 @@ js:
   - "/assets/plugins/bootstrap/bootstrap.min.js"
   - "/assets/plugins/search/lunr.min.js"
   - "/assets/plugins/search/search.js"
+headjs:
+  - "https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.56/pdfmake.min.js"
+  - "https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.56/vfs_fonts.js"
+

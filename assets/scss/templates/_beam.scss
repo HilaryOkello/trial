@@ -1,0 +1,25 @@
+#bbsForm {
+    padding: 20px;
+    background-color: $white;
+    border-radius: 1rem;
+    box-shadow: 0 0 5px $secondary-color;
+}
+#bbsForm input {
+    height: 2rem;
+    width: 50%;
+}
+#bbsForm select {
+    height: 2rem;
+    width: 50%;
+}
+
+.bbsForm-header {
+    font-family: $displayMedium;
+    color: $red;
+}
+.beamSchedule {
+    @include mobile {
+        padding-right: 0;
+        padding-left: 0;
+    }
+}

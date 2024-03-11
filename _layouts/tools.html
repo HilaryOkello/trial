@@ -1,7 +1,125 @@
 ---
 layout: default
 ---
-
-<div class="container soon">
-    <h1>Coming Soon</h1>
+<div class="container">
+    <h3 class="text-center bbsForm-header">Beam Bar Bending Schedule Generator</h3>
+    <form id="bbsForm">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-left mb-2">
+                    <label for="beamType"><h5>Beam Type:</h4></label>
+                    <select id="beamType" name="beamType" onchange="toggleInputs()" class="form-select form-control">
+                        <option value="simple">Simple Beam (uniform spacing of stirrups throughout the length)</option>
+                        <option value="detailed">Detailed Beam (varying spacing of stirrups throughout the beam length)</option>
+                    </select>
+                </div>
+            </div>
+    
+            <div class="row mt-4">
+                <div class="col-md-6">
+                    <h5>Beam Basics</h4>
+                    <div class="mb-1">
+                        <label for="beamName">Name of Beam (optional):</label>
+                        <input type="text" id="beamName" name="beamName" class="form-control">
+                    </div>
+                    <div class="mb-1">
+                        <label for="clearSpan">Clear Span of Beam (mm):</label>
+                        <input type="number" id="clearSpan" name="clearSpan" required class="form-control">
+                    </div>
+                    <div class="mb-1">
+                        <label for="depthBeam">Depth of Beam (mm):</label>
+                        <input type="number" id="depthBeam" name="depthBeam" required class="form-control">
+                    </div>
+                    <div class="mb-1">
+                        <label for="widthBeam">Width of Beam (mm):</label>
+                        <input type="number" id="widthBeam" name="widthBeam" required class="form-control">
+                    </div>
+                    <div class="mb-1">
+                        <label for="devLength">Development Length (e.g. if it's 50d, just put 50 instead of 600 i.e. 50 * 12) (mm):</label>
+                        <input type="number" id="devLength" name="devLength" required class="form-control">
+                    </div>
+                    <div class="mb-1">
+                        <label for="cover">Clear Cover (mm):</label>
+                        <input type="number" id="cover" name="cover" required class="form-control">
+                    </div>
+                </div>
+    
+                <div class="col-md-6">
+                    <h5>Bottom Bar</h4>
+                    <div class="mb-1">
+                        <label for="bottomDiameter">Diameter of Bottom Bars (mm):</label>
+                        <input type="number" id="bottomDiameter" name="bottomDiameter" required class="form-control">
+                    </div> 
+                    <div class="mb-1">
+                        <label for="numBottomBars">Number of Bottom Bars:</label>
+                        <input type="number" id="numBottomBars" name="numBottomBars" required class="form-control">
+                    </div>
+                    <h5>Top Bar</h4>
+                    <div class="mb-1">
+                        <label for="topDiameter">Diameter of Top Bars (mm):</label>
+                        <input type="number" id="topDiameter" name="topDiameter" required class="form-control">
+                    </div>
+                    <div class="mb-1">
+                        <label for="numTopBars">Number of Top Bars:</label>
+                        <input type="number" id="numTopBars" name="numTopBars" required class="form-control">
+                    </div>
+                    <h5>Stirrup Details</h4>
+                        <div class="mb-1">
+                            <label for="stirrupDiameter">Diameter of Stirrups (mm):</label>
+                            <input type="number" id="stirrupDiameter" name="stirrupDiameter" required class="form-control">
+                        </div>
+                        <div class="mb-1">
+                            <label for="lengthHook">Length of Hook (mm):</label>
+                            <input type="number" id="lengthHook" name="lengthHook" required class="form-control">
+                        </div>
+                    <div id="simpleBeamInputs">
+                        <div class="mb-1">
+                            <label for="stirrupSpacing">Stirrup Spacing (mm):</label>
+                            <input type="number" id="stirrupSpacing" name="stirrupSpacing" required class="form-control">
+                        </div>
+                    </div>
+    
+                    <div id="detailedBeamInputs">
+                        <div class="mb-1">
+                            <label for="spacingZone1">Spacing of Stirrups in Zone 1 (mm):</label>
+                            <input type="number" id="spacingZone1" name="spacingZone1" required class="form-control">
+                        </div>
+                        <div class="mb-1">
+                            <label for="lengthZone1">Length of Zone 1 (mm):</label>
+                            <input type="number" id="lengthZone1" name="lengthZone1" required class="form-control">
+                        </div>
+                        <div class="mb-1">
+                            <label for="spacingZone2">Spacing of Stirrups in Zone 2 (mm):</label>
+                            <input type="number" id="spacingZone2" name="spacingZone2" required class="form-control">
+                        </div>
+                        <div class="mb-1">
+                            <label for="lengthZone2">Length of Zone 2 (mm):</label>
+                            <input type="number" id="lengthZone2" name="lengthZone2" required class="form-control">
+                        </div>
+                        <div class="mb-1">
+                            <label for="spacingZone3">Spacing of Stirrups in Zone 3 (mm):</label>
+                            <input type="number" id="spacingZone3" name="spacingZone3" required class="form-control">
+                        </div>
+                        <div class="mb-1">
+                            <label for="lengthZone3">Length of Zone 3 (mm):</label>
+                            <input type="number" id="lengthZone3" name="lengthZone3" required class="form-control">
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="row mt-4">
+                <div class="col-md-12 text-center">
+                    <a href="#" id="calculateButton" class="main-button">Calculate</a>
+                </div>
+            </div>
+        </div>
+    </form>
+    
+    <div id="pdfContent">
+        <div id="output" class="py-2"></div>
+    </div> 
 </div>
+
+
+
