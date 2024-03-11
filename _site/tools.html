@@ -61,7 +61,16 @@
   <div class="container">
     <!-- navbar -->
     <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
-      <a class="navbar-brand" href="/"><img class="img-fluid logo" src="/assets/images/logo.svg" alt="Onyango Okello | IT Consultancy"></a>
+      <div class="row logo-section">
+        <div class="col-3 logo-image">
+          <a class="navbar-brand" href="/"><img class="img-fluid logo" src="/assets/images/logo.svg" alt="Onyango Okello | IT Consultancy"></a>
+        </div>
+        <div class="col-9 logo-text">
+          <p class="logo-name">Onyango Okello</p>
+          <p class="logo-name-sub">IT Consultancy</p>
+        </div>
+      </div>
+      
       <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navigation">
         <i class="ti-menu h3"></i>
       </button>
@@ -124,8 +133,12 @@
                 <div class="col-md-12 text-left mb-2">
                     <label for="beamType"><h5>Beam Type:</h4></label>
                     <select id="beamType" name="beamType" onchange="toggleInputs()" class="form-select form-control">
-                        <option value="simple">Simple Beam (uniform spacing of stirrups throughout the length)</option>
-                        <option value="detailed">Detailed Beam (varying spacing of stirrups throughout the beam length)</option>
+                        <optgroup label="Simple Beam">
+                            <option value="simple">Uniform Spacing of Stirrups</option>
+                        </optgroup>
+                        <optgroup label="Detailed Beam">
+                            <option value="detailed">Varying Spacing of Stirrups</option>
+                        </optgroup>
                     </select>
                 </div>
             </div>
@@ -295,10 +308,6 @@
 
 
 <!-- Main Script -->
-
-document.addEventListener("DOMContentLoaded", function() {
-  // Your JavaScript code here
-});
 <script src="/assets/js/script.js"></script>
 <script src="/assets/js/beam.js"></script>
   </body>

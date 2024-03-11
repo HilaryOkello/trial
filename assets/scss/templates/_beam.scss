@@ -7,10 +7,13 @@
 #bbsForm input {
     height: 2rem;
     width: 50%;
+    @include mobile {
+        width: 80%;
+    }
 }
 #bbsForm select {
-    height: 2rem;
-    width: 50%;
+    height: 2.5rem;
+    width: 100%;
 }
 
 .bbsForm-header {

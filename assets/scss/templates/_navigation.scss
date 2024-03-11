@@ -53,4 +53,53 @@
   color: $primary-color !important;
 }
 
+.logo-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  @include mobile {
+    width: 55%;
+  }
+}
+
+
+.logo-name {
+  font-family: $displayMedium;
+  font-size: 1.5rem;
+  color: $darker-blue;
+  line-height: 1.5rem;
+  letter-spacing: 0.05rem;
+  @include mobile {
+    font-size: 1rem;
+    line-height: 1rem;
+    letter-spacing: 0.03rem;
+  }
+}
+.logo-name-sub {
+  font-family: $primary-font;
+  font-size: 1rem;
+  color: $text-color;
+  line-height: 1rem;
+  @include mobile {
+    font-size: 0.9rem;
+    line-height: 0.9rem;
+    letter-spacing: 0.03rem;
+  }
+}
+.logo-image {
+  padding-left: 0;
+  padding-right: 0;
+  margin-left: 0;
+  margin-right: 0;
+}
+.logo-text {
+  padding-left: 0;
+  padding-right: 0;
+  margin-left: 0;
+  margin-right: 0;
+}
+.logo-text p {
+  margin: 0; /* Remove default margin of the paragraph */
+}
+
 

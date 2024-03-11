@@ -3,7 +3,16 @@
   <div class="container">
     <!-- navbar -->
     <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
-      <a class="navbar-brand" href="/"><img class="img-fluid logo" src="{{ site.data.parameters.logo | relative_url }}" alt="{{ site.title }}"></a>
+      <div class="row logo-section">
+        <div class="col-3 logo-image">
+          <a class="navbar-brand" href="/"><img class="img-fluid logo" src="{{ site.data.parameters.logo | relative_url }}" alt="{{ site.title }}"></a>
+        </div>
+        <div class="col-9 logo-text">
+          <p class="logo-name">Onyango Okello</p>
+          <p class="logo-name-sub">IT Consultancy</p>
+        </div>
+      </div>
+      
       <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navigation">
         <i class="ti-menu h3"></i>
       </button>

@@ -364,6 +364,64 @@ textarea.form-control {
   color: #3240F9 !important;
 }
 
+.logo-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@media (max-width: 575px) {
+  .logo-section {
+    width: 55%;
+  }
+}
+
+.logo-name {
+  font-family: "Neue Haas Display Medium", Arial, Helvetica, sans-serif;
+  font-size: 1.5rem;
+  color: #26233D;
+  line-height: 1.5rem;
+  letter-spacing: 0.05rem;
+}
+@media (max-width: 575px) {
+  .logo-name {
+    font-size: 1rem;
+    line-height: 1rem;
+    letter-spacing: 0.03rem;
+  }
+}
+
+.logo-name-sub {
+  font-family: "Muli", sans-serif;
+  font-size: 1rem;
+  color: #666666;
+  line-height: 1rem;
+}
+@media (max-width: 575px) {
+  .logo-name-sub {
+    font-size: 0.9rem;
+    line-height: 0.9rem;
+    letter-spacing: 0.03rem;
+  }
+}
+
+.logo-image {
+  padding-left: 0;
+  padding-right: 0;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.logo-text {
+  padding-left: 0;
+  padding-right: 0;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.logo-text p {
+  margin: 0; /* Remove default margin of the paragraph */
+}
+
 .icon-md {
   font-size: 30px;
 }
@@ -655,10 +713,15 @@ textarea.form-control {
   height: 2rem;
   width: 50%;
 }
+@media (max-width: 575px) {
+  #bbsForm input {
+    width: 80%;
+  }
+}
 
 #bbsForm select {
-  height: 2rem;
-  width: 50%;
+  height: 2.5rem;
+  width: 100%;
 }
 
 .bbsForm-header {
@@ -912,6 +975,7 @@ textarea.form-control {
   text-decoration: none;
   border: 2px solid #fb6563;
   transition: background-color 0.3s ease;
+  border-radius: 0.25rem;
 }
 @media (max-width: 575px) {
   .outline-button {
@@ -940,6 +1004,7 @@ textarea.form-control {
   background-color: #3240F9;
   text-decoration: none;
   transition: background-color 0.3s ease;
+  border-radius: 0.25rem;
 }
 @media (max-width: 575px) {
   .main-button {

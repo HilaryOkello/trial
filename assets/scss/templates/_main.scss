@@ -272,6 +272,7 @@ color: $darker-blue;
   text-decoration: none;
   border: 2px solid $red;
   transition: background-color 0.3s ease;
+  border-radius: 0.25rem;
   @include mobile {
     font-family: $displayRoman;
     padding: 5px 20px !important;
@@ -296,6 +297,7 @@ border: none;
   background-color: $primary-color;
   text-decoration: none;
   transition: background-color 0.3s ease;
+  border-radius: 0.25rem;
   @include mobile {
     font-family: $displayRoman;
     padding: 9px 24px !important;
