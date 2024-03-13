@@ -1,12 +1,11 @@
 
-url: https://hilaryokello.github.io
+url: https://onyangookello.com
 baseurl: /
 
 
 title: Onyango Okello | IT Consultancy
 description: >- # this means to ignore newlines until "baseurl:"
   An IT Consultancy with a focus on the Construction Industry. We create simple and creative websites and applications, develope software solutions, and design data, automation and AI solutions to improve business processes. 
-
 
 # include
 include:
@@ -32,13 +31,5 @@ plugins:
 # contact form action
 contact_form_action: "https://formspree.io/f/mgegygyv"
 
-#   # Build settings
-# markdown: kramdown
-# permalink: pretty
-# plugins:
-#   - jekyll-paginate
-#   - jekyll-sitemap
-#   - jekyll/tagging
-
-# paginate: 6
-# paginate_path: "/page/:num"
+  # Build settings
+permalink: pretty

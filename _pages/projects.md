@@ -1,4 +1,4 @@
 ---
-permalink: /:basename:output_ext
+permalink: /projects/
 layout: projects
 ---

@@ -54,13 +54,13 @@ services:
 - title : "Digital Branding"
   icon : "ti-announcement"
   content : "We tailor solutions to elevate your brand's online presence so you can navigate the digital landscape with confidence."
-  link : "branding.html" 
+  link : "branding" 
   label: "See Pricing"
 
 - title : "Web Design & Development"
   icon : "ti-mobile"
   content : "Engage your audience effectively with captivating online experiences and seamless functionality. Contact us today for your website."
-  link : "website.html"
+  link : "website-pricing"
   label: "See Pricing"
 
 - title : "Data, Automation & AI"

@@ -1,4 +1,4 @@
 ---
-permalink: /:basename:output_ext
+permalink: /tools/
 layout: tools
 ---
