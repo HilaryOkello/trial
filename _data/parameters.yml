@@ -2,10 +2,10 @@
 menu:
   # main menu
   main:
-    - { name: Projects, url: "projects.html" }
+    - { name: Projects, url: "projects" }
     - { name: Services, url: "#services" }
     - { name: About, url: "#about" }
-    - { name: Tools, url: "tools.html" }
+    - { name: Tools, url: "tools" }
     - { name: Get in Touch, url: "#contact" }
   ##### Dropdown menu ######
 
